@@ -30,4 +30,4 @@ To support Risk Operations, the database includes pre-built views:
 
 ## 💡 Conclusion
 This project demonstrates a deep understanding of not just SQL syntax, but how databases solve real business problems in the FinTech sector. By combining strict data constraints with automated monitoring, this system effectively reduces financial risk while providing clean, accessible data for financial analysts.
-![Fraud Detection Results]()
+![Fraud Detection Results](<Screenshot 2026-04-29 103755.png>)
