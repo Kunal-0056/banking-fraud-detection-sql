@@ -15,6 +15,8 @@ The database is built using a 3rd Normal Form (3NF) architecture to ensure data 
 * **`merchants`**: Categorized business entities where money is spent.
 * **`transactions`**: The central fact table recording all financial movements (pos, upi, net banking, atm).
 * **`risk_events`**: A security log that stores automatically flagged suspicious transactions.
+![Fraud Detection Results](<Screenshot 2026-04-29 103755.png>)
+
   
 ## 🕵️‍♂️ Fraud Detection Logic (Key Features)
 This project goes beyond simple data storage by implementing business-logic rules used by real Fraud Analysts:
@@ -30,4 +32,3 @@ To support Risk Operations, the database includes pre-built views:
 
 ## 💡 Conclusion
 This project demonstrates a deep understanding of not just SQL syntax, but how databases solve real business problems in the FinTech sector. By combining strict data constraints with automated monitoring, this system effectively reduces financial risk while providing clean, accessible data for financial analysts.
-![Fraud Detection Results](<Screenshot 2026-04-29 103755.png>)
