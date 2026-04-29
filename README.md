@@ -1,4 +1,6 @@
 # 🏦 Banking Transactions & Fraud Detection Database
+![Fraud Detection Results](<Screenshot 2026-04-29 103755.png>)
+
 
 ## 📌 Objective
 The objective of this project is to design a normalized, production-ready relational database for a fictional bank. It simulates real-world banking operations, tracks customer accounts, logs transactions, and utilizes advanced SQL logic to automatically detect and flag fraudulent activity.
@@ -15,8 +17,6 @@ The database is built using a 3rd Normal Form (3NF) architecture to ensure data 
 * **`merchants`**: Categorized business entities where money is spent.
 * **`transactions`**: The central fact table recording all financial movements (pos, upi, net banking, atm).
 * **`risk_events`**: A security log that stores automatically flagged suspicious transactions.
-![Fraud Detection Results](<Screenshot 2026-04-29 103755.png>)
-
   
 ## 🕵️‍♂️ Fraud Detection Logic (Key Features)
 This project goes beyond simple data storage by implementing business-logic rules used by real Fraud Analysts:
